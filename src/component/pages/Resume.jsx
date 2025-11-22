@@ -2,7 +2,7 @@ import React from "react";
 import { FaUserGraduate, FaBriefcase, FaAward } from "react-icons/fa";
 
 export default function Resume() {
-  const cardClasses = "rounded-2xl shadow-lg p-6 flex flex-wrap flex-col justify-between h-[200px]";
+  const cardClasses = "rounded-2xl shadow-lg p-6 flex flex-wrap flex-col justify-between h-[300px] sm:h-[200px] md:h-[300px]";
 
   return (
     <div className="flex flex-wrap flex-col items-center min-h-screen px-2 py-12 bg-transparent">
