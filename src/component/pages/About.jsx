@@ -13,7 +13,7 @@ export default function About() {
         {/* About Me section with image */}
         <div className="flex flex-wrap flex-col md:flex-row gap-12 items-start">
           {/* Profile image at its real, not cropped, size */}
-          <div className="rounded-3xl shadow-xl overflow-visible flex items-center justify-center bg-white">
+          <div className="rounded-3xl shadow-xl overflow-visible flex flex-wrap items-center justify-center bg-white">
             <img
               src={profile}
               alt="Prahlad Kumar"
